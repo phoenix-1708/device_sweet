@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet.mk
+    $(LOCAL_DIR)/xtended_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sweet-eng \
-    lineage_sweet-userdebug \
-    lineage_sweet-user
+    xtended_sweet-eng \
+    xtended_sweet-userdebug \
+    xtended_sweet-user
