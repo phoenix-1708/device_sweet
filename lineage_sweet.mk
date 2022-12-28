@@ -12,11 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common rice configurations
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Other Stuff rice
-RICE_MAINTAINER := Harikumar
-RICE_CHIPSET := sm6150
+XTENDED_BUILD_MAINTAINER := Harikumar
+XTENDED_BUILD_TYPE := UNOFFICIAL
 WITH_GMS := false
 SUSHI_BOOTANIMATION := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
@@ -26,7 +26,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 
-PRODUCT_NAME := lineage_sweet
+PRODUCT_NAME := xtended_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
