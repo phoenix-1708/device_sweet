@@ -17,7 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Other Stuff rice
 RICE_MAINTAINER := Harikumar
 RICE_CHIPSET := sm6150
-WITH_GMS := false
+WITH_GMS := true
 TARGET_CORE_GMS := true
 SUSHI_BOOTANIMATION := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
